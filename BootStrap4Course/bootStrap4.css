@@ -1,0 +1,45 @@
+html, body{
+    height:100%;
+}
+img{
+    max-width:100%
+}
+#cover{
+    /* for background image to center used center center*/
+    background:#222 url("img/stars.jpg") center center no-repeat;
+    background-size: cover;
+    color:white;
+    height: 100%;
+    text-align: center;
+    /*using flex box w/ bootstrap4*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardBottom{
+    display:flex;
+    background-color: lightgray;
+}
+.section-content{
+    /* 1rem  is = to the root font so if 16px then 5 rem is = to ~ 90px this is for card padding*/
+    padding:5rem;
+}
+#about{
+    background: url("img/girlincar.jpg")center center no-repeat;
+    /*to take up size of container*/
+    background-size: cover;
+    
+    font-weight:bold;
+}
+/*to style text in about section w dark background/white txt, I like it the other way
+not as clear and reable but don't like the dark box*/
+/*.about-text{
+    background-color: #222;
+    color:wheat;
+    padding:1.87rem;
+}*/
+#footer-main{
+    background-color:darkblue;
+    color:white;
+    padding: 0.5rem;
+}
